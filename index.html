@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H.K.T.P.L.Sampath</title>
+    <style>
+        body{
+            
+            font-family: sans-serif;
+            font-size: 20px;
+            background-color: #fae5df;
+        }
+        
+
+        
+    </style>
+</head>
+<body >
+
+    <section style ="display:flex; align-items:center; justify-content:center; margin-top:20px;">
+
+        <div class="container" style="justify-content:center; align-items: center; padding:20px; border: 2px solid #303179; border-radius: 10px; background-color: #fff;">
+
+            <div class="title">
+
+                <h3 class="titleText" style="color:#141850; font-size: 30px;  ">Embla Assessment - Project Management</h3>
+
+            </div>
+
+            <div style="text-align: center;">
+
+                <input type="text" id="searchText" name="term" class="col-9" placeholder = "Enter a name to filter" style="padding:10px 10px; border-radius: 10px 0 0 10px; " />
+
+                <button id="submit" class="btn" class="col-2" style="background-color:#303179; color:#fae5df; padding: 10px 15px; cursor:pointer;">Filter Projects</button>
+
+                <button id="reset" class="btn-reset" class="col-2" onclick="location.reload()" style="background-color:#303179; color:#fae5df; padding: 10px 15px; border-radius: 0 10px 10px 0; cursor:pointer;">Reset Filter</button>
+
+            </div>
+
+            <p id="error-message" style="display:none; font-size:15px; color:red; text-align:center; margin-top: 20px;"></p>
+
+            <ul id="projects" style="list-style:number; line-height:2.5rem; margin-top: 50px; color:#303179">
+
+            </ul>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
